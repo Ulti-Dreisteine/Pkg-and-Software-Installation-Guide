@@ -5,12 +5,13 @@
 ## 1. Pycharm + Anaconda环境配置
 
 1. 下载Anaconda和Pycharm进行安装：
-
+   
    > Anaconda3: 2020.02 for MacOS + Pycharm: 2019.3.4 community
-
    > Anaconda3: 2020.02 for Windows + PyCharm 2019.3.5 professional
 
 2. 环境clone
+   **<font color=red>(注意: 在Anaconda Prompt而非系统Terminal中执行以下命令)</font>**
+
    > conda create -n *新环境名* --clone *老环境名*
 
 3. 在MacOS上进行环境配置，运行numpy或matplotlib时可能遇到如下情况：
@@ -51,18 +52,60 @@
 
 ## 4. Python包安装
 
-* <u>PyTorch安装</u>
+* <u>**PyTorch安装**</u>
 
   * 安装CUDA和CUDNN: 对于GTX 1060, 显卡驱动版本$\geq$442.59, CUDA选择10.1或10.2
   * 将torch和torchvision文件下载至本地使用pip安装, 文件地址: <https://download.pytorch.org/whl/torch_stable.html>
 
-* <u>LightGBM安装</u>
+* <u>**LightGBM安装**</u>
 
   * 注意不同版本对应结果有很大差异，这里选择使用2.3.1版本：
 
     ```
     pip install lightgbm==2.3.1
     ```
+
+* <u>**PyMC3安装**</u>
+
+  以下安装在python 3.8.8及以下版本测试有效, 更高python版本待测试:
+
+  **<font color=red>(注意: 在Anaconda Prompt而非系统Terminal中执行以下命令)</font>**
+
+  ```
+  pip install pymc3 -i https://mirrors.aliyun.com/pypi/simple/
+  conda install numpy scipy mkl-service libpython m2w64-toolchain
+  conda install -c conda-forge blas
+  conda install -c conda-forge python-graphviz
+  ```
+
+  若出现warning:
+
+  > WARNING (theano.tensor.blas): Using NumPy C-API based implementation for BLAS functions
+
+  则进行以下安装:
+
+  ```
+  conda install mkl
+  conda install mkl-service
+  conda install blas
+  conda install -c conda-forge python-graphviz
+  ```
+
+  然后在"C:\Users\Administrator等用户名"下新建".theanorc.txt"文件，里面输入:
+
+  ```
+  [blas]
+  ldflags=-lmkl_rt
+  ```
+
+  或
+
+  ```
+  [blas]
+  ldflags=-lblas
+  ```
+
+  <font color="red">安装完毕后可运行file.pymc_running_test.ipynb对PyMC进行运行测试</font >
 
 ## 5. R + Jupyter Notebook
 
