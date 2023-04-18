@@ -9,6 +9,8 @@
    > Anaconda3: 2020.02 for MacOS + Pycharm: 2019.3.4 community
    > Anaconda3: 2020.02 for Windows + PyCharm 2019.3.5 professional
 
+   * 博士论文环境: Python 3.8.8 (Anaconda 2021.5)
+
 2. 环境clone
    **<font color=red>(注意: 在Anaconda Prompt而非系统Terminal中执行以下命令)</font>**
 
