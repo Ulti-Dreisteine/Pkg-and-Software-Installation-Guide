@@ -18,3 +18,8 @@
    xelatex -v
    ```
    若不返回安装信息，可在环境变量中添加如下路径：D:\texlive\2022\bin\win32，添加后再次在cmd中输入命令验证是否安装成功。
+
+**安装 TEX Live 之后，建议升级全部宏包，升级方法：**
+* 使用 cmd 或 terminal 运行 tlmgr update --all，
+* 如果 tlmgr 需要更新，请使用 cmd 运行 tlmgr update --self；如果更新过程中出现了中断，请改用 tlmgr
+update --self --all --reinstall-forcibly-removed 更新
