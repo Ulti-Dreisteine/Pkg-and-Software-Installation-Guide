@@ -31,3 +31,12 @@ custom_channels:
   pytorch-lts: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
   simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 ```
+
+### PyCaret安装
+```
+conda create --name pycaret_env python=3.8
+conda activate pycaret
+
+pip install pycaret -i https://pypi.tuna.tsinghua.edu.cn/simple
+python -m ipykernel install --user --name pycaret_env --display-name "display-name"
+```
