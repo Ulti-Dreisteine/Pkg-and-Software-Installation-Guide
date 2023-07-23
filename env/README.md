@@ -1,3 +1,7 @@
+### Anaconda版本
+
+Anaconda 2021.05 对应于Python 3.8
+
 ### Conda换源
 
 Anaconda Prompt中运行:
