@@ -30,11 +30,11 @@
    然后通过pip重新安装相关包, 注意版本：
 
    ```bash
-   pip install numpy==1.18.1 -i https://mirrors.aliyun.com/pypi/simple/
-   pip install matplotlib==3.1.3 -i https://mirrors.aliyun.com/pypi/simple/
-   pip install scikit-learn==0.22.1 -i https://mirrors.aliyun.com/pypi/simple/
-   pip install seaborn==0.10.0 -i https://mirrors.aliyun.com/pypi/simple/
-   pip install scipy -i https://mirrors.aliyun.com/pypi/simple/
+   pip install --user numpy==1.18.1 -i https://mirrors.aliyun.com/pypi/simple/
+   pip install --user matplotlib==3.1.3 -i https://mirrors.aliyun.com/pypi/simple/
+   pip install --user scikit-learn==0.22.1 -i https://mirrors.aliyun.com/pypi/simple/
+   pip install --user seaborn==0.10.0 -i https://mirrors.aliyun.com/pypi/simple/
+   pip install --user scipy -i https://mirrors.aliyun.com/pypi/simple/
    ```
 
    > ImportError: DLL load failed while importing _sqlite3: 找不到指定的模块
