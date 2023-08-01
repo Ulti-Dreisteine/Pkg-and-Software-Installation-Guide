@@ -33,6 +33,9 @@ custom_channels:
 ```
 
 ### PyCaret安装
+
+注意：Anaconda 2021.05中自带了PyCaret 3.0.4!!!
+
 ```
 conda create --name pycaret_env python=3.8
 conda activate pycaret
