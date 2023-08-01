@@ -23,7 +23,7 @@
    可能问题是numpy或matplotlib等相关包版本文件有问题，建议卸载本地相关包，并清空缓存：
 
    ```bash
-   pip uninstall numpy matplotlib scikit-image scikit-learn seaborn
+   pip uninstall numpy matplotlib scikit-image scikit-learn seaborn scipy
    conda clean -p
    ```
 
@@ -34,6 +34,7 @@
    pip install matplotlib==3.1.3 -i https://mirrors.aliyun.com/pypi/simple/
    pip install scikit-learn==0.22.1 -i https://mirrors.aliyun.com/pypi/simple/
    pip install seaborn==0.10.0 -i https://mirrors.aliyun.com/pypi/simple/
+   pip install scipy -i https://mirrors.aliyun.com/pypi/simple/
    ```
 
    > ImportError: DLL load failed while importing _sqlite3: 找不到指定的模块
