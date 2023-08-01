@@ -34,9 +34,12 @@ custom_channels:
 
 ### PyCaret安装
 
-注意：Anaconda 2021.05中自带了PyCaret 3.0.4，仍需补充安装：
+注意：Anaconda 2021.05中自带了PyCaret 3.0.4，~~仍需补充安装~~，卸载吧！！！！！：
 ```
 conda install plotly
+pip install matplotlib_inline -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install category_encoders -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install xxhash -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 其他情况下安装PyCaret：
@@ -45,6 +48,6 @@ conda install plotly
 conda create --name pycaret_env python=3.8
 conda activate pycaret
 
-pip install pycaret -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install --user pycaret -i https://pypi.tuna.tsinghua.edu.cn/simple
 python -m ipykernel install --user --name pycaret_env --display-name "display-name"
 ```
