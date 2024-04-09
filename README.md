@@ -61,7 +61,7 @@
   * 将torch和torchvision文件下载至本地使用pip安装, 文件地址: <https://download.pytorch.org/whl/torch_stable.html>
 
   * RTX 4090D：
-     * Cuda Toolkit 11.8（因为PyTorch只有对应Cuda11.8和12.1的版本）
+     * Cuda Toolkit 12.1（因为PyTorch只有对应Cuda11.8和12.1的版本）
 
 * <u>**LightGBM安装**</u>
 
