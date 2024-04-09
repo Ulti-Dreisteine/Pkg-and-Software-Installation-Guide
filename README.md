@@ -60,6 +60,8 @@
   * 安装CUDA和CUDNN: 对于GTX 1060, 显卡驱动版本$\geq$442.59, CUDA选择10.1或10.2
   * 将torch和torchvision文件下载至本地使用pip安装, 文件地址: <https://download.pytorch.org/whl/torch_stable.html>
 
+  * RTX 4090D：Cuda Toolkit 11.8.0
+
 * <u>**LightGBM安装**</u>
 
   * 注意不同版本对应结果有很大差异，这里选择使用2.3.1版本：
