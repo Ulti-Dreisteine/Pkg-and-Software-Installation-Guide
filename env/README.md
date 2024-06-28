@@ -1,3 +1,13 @@
+### 环境配置
+```bash
+conda create -n work python=3.10
+conda activate work
+conda install numpy pandas scikit-learn matplotlib
+conda install jupyter
+```
+
+
+
 ### Anaconda版本
 
 Anaconda 2021.05 对应于Python 3.8
