@@ -4,6 +4,7 @@ conda create -n work python=3.10
 conda activate work
 conda install numpy pandas scikit-learn matplotlib
 conda install jupyter
+conda install openpyxl
 ```
 
 
