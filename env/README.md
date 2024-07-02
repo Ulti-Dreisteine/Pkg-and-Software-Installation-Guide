@@ -2,7 +2,8 @@
 ```bash
 conda create -n work python=3.10
 conda activate work
-conda install numpy pandas scikit-learn matplotlib
+conda install numpy=1.21.1 # 避免scikit-opt运行报错
+conda install pandas scikit-learn matplotlib
 conda install jupyter
 conda install openpyxl
 ```
