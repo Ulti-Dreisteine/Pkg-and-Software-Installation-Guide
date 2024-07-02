@@ -1,7 +1,7 @@
 ### 环境配置
 ```bash
-conda create -n work python=3.10
-conda activate work
+conda create -n work_cp38 python=3.8
+conda activate work_cp38
 conda install numpy=1.21.1 # 避免scikit-opt运行报错
 conda install pandas scikit-learn matplotlib
 conda install jupyter
