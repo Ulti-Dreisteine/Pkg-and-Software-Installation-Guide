@@ -68,16 +68,16 @@
   ssh -T git@bitbucket_project.org
   ```
 
-- 项目克隆：如果连接测试通过但是无法clone项目，则重新执行上述第4步；在clone项目的时候，选择ssh拉取，把**冒号前的域名**改成**Config中Host后跟随的名字**：
+- 项目克隆：如果连接测试通过但是无法clone项目，则重新执行上述第4步；在clone项目的时候，选择ssh拉取，把**冒号前的域名**改成**Config中Host后跟随的名字**，比如：
   
   ```git
-  git@github.com:aaa/xxx.git
+  git@bitbucket.org:aaa/xxx.git
   ```
   
   改成
   
   ```bash
-  git@github_163:aaa/xxx.git
+  git@bitbucket_research.org:aaa/xxx.git
   ```
 
 - 全局设置用户名和邮箱：
