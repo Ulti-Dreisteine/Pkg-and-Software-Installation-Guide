@@ -39,12 +39,12 @@
   
   ```textile
   Host github.com
-    HostName ssh.github.com
-    IdentityFile ~/.ssh/github
-    PreferredAuthentications publickey
-    IdentitiesOnly yes
-    IdentityAgent none
-    Port 443
+      HostName ssh.github.com
+      IdentityFile ~/.ssh/github
+      PreferredAuthentications publickey
+      IdentitiesOnly yes
+      IdentityAgent none
+      Port 443
 
   Host github_backup.com
       HostName ssh.github.com
