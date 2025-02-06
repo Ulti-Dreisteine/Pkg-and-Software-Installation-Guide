@@ -46,34 +46,34 @@
     IdentityAgent none
     Port 443
 
-Host github_backup.com
-    HostName ssh.github.com
-    IdentityFile ~/.ssh/github_backup
-    PreferredAuthentications publickey
-    IdentitiesOnly yes
-    IdentityAgent none
-    Port 443
-
-Host gitlab.com
-    HostName gitlab.com
-    IdentityFile ~/.ssh/gitlab
-    PreferredAuthentications publickey
-    IdentitiesOnly yes
-    IdentityAgent none
-
-Host bitbucket_research.org
-    HostName bitbucket.org
-    IdentityFile ~/.ssh/bitbucket_research
-    PreferredAuthentications publickey
-    IdentitiesOnly yes
-    IdentityAgent none
-
-Host bitbucket_project.org
-    HostName bitbucket.org
-    IdentityFile ~/.ssh/bitbucket_project
-    PreferredAuthentications publickey
-    IdentitiesOnly yes
-    IdentityAgent none
+  Host github_backup.com
+      HostName ssh.github.com
+      IdentityFile ~/.ssh/github_backup
+      PreferredAuthentications publickey
+      IdentitiesOnly yes
+      IdentityAgent none
+      Port 443
+  
+  Host gitlab.com
+      HostName gitlab.com
+      IdentityFile ~/.ssh/gitlab
+      PreferredAuthentications publickey
+      IdentitiesOnly yes
+      IdentityAgent none
+  
+  Host bitbucket_research.org
+      HostName bitbucket.org
+      IdentityFile ~/.ssh/bitbucket_research
+      PreferredAuthentications publickey
+      IdentitiesOnly yes
+      IdentityAgent none
+  
+  Host bitbucket_project.org
+      HostName bitbucket.org
+      IdentityFile ~/.ssh/bitbucket_project
+      PreferredAuthentications publickey
+      IdentitiesOnly yes
+      IdentityAgent none
   ```
   
   测试连接：
