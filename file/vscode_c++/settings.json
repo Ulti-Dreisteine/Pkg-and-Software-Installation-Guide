@@ -1,0 +1,478 @@
+{
+    "files.autoGuessEncoding": false,
+    "files.encoding": "utf8",
+    "python.analysis.stubPath": "",
+    "editor.guides.bracketPairsHorizontal": "active",
+    "editor.guides.highlightActiveBracketPair": true,
+    "editor.rulers": [
+        100,
+        120
+    ],
+    "[jupyter]": {
+        "editor.fontFamily": "Fira Code, Cascadia Code, 霞鹜文楷",
+        "editor.fontSize": 12,
+    },
+    "editor.wordWrapColumn": 120,
+    "workbench.tree.indent": 20,
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "support.function.magic.python",
+                "settings": {
+                    "foreground": "#7800dbf1",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "variable.other.property",
+                "settings": {
+                    "foreground": "#7800dbf1"
+                }
+            },
+            {
+                "scope": "variable.other.constant",
+                "settings": {
+                    "foreground": "#000000"
+                }
+            },
+            {
+                "scope": "variable.other.readwrite",
+                "settings": {
+                    "foreground": "#000000"
+                }
+            },
+            {
+                "scope": "keyword.control",
+                "settings": {
+                    "foreground": "#002fff",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.operator",
+                "settings": {
+                    "foreground": "#000000",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "keyword.operator",
+                "settings": {
+                    "foreground": "#000000"
+                }
+            },
+            {
+                "scope": "storage.type",
+                "settings": {
+                    "foreground": "#002fff",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "string.quoted.multi.python",
+                "settings": {
+                    "foreground": "#ee1650d2",
+                    "fontStyle": "italic",
+                }
+            },
+            {
+                "scope": "string.quoted.docstring.multi.python",
+                "settings": {
+                    "foreground": "#ee1650d2",
+                    "fontStyle": "italic",
+                }
+            },
+            {
+                "scope": "string.quoted.single.python",
+                "settings": {
+                    "foreground": "#ee1650d2"
+                }
+            },
+            {
+                "scope": "constant",
+                "settings": {
+                    "foreground": "#ff8800"
+                }
+            },
+            {
+                "scope": "variable",
+                "settings": {
+                    "foreground": "#000000"
+                }
+            },
+            {
+                "scope": "variable.language",
+                "settings": {
+                    "foreground": "#000d9bc5"
+                }
+            },
+            {
+                "scope": "variable.parameter",
+                "settings": {
+                    "foreground": "#ff8800"
+                }
+            },
+            {
+                "scope": "variable.parameter.function.language.special.self.python",
+                "settings": {
+                    "foreground": "#ff8800",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "entity.name.function",
+                "settings": {
+                    "foreground": "#000000",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "entity.name",
+                "settings": {
+                    "foreground": "#000000",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "entity.name.class",
+                "settings": {
+                    "foreground": "#d10000"
+                }
+            },
+            {
+                "scope": "entity.name.type",
+                "settings": {
+                    "foreground": "#d10000",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#a9a9a9",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "punctuation.definition.comment.python",
+                "settings": {
+                    "foreground": "#a9a9a9"
+                }
+            },
+            {
+                "scope": "support.function.magic.python",
+                "settings": {
+                    "foreground": "#000000",
+                }
+            }
+        ]
+    },
+    // "todohighlight.keywords": [
+    //     {
+    //         "text": "# runtime",
+    //         "color": "white",
+    //         "backgroundColor": "orange"
+    //     },
+    //     {
+    //         "text": "# params",
+    //         "color": "white",
+    //         "backgroundColor": "orange"
+    //     },
+    //     {
+    //         "text": "# input",
+    //         "color": "white",
+    //         "backgroundColor": "green"
+    //     },
+    //     {
+    //         "text": "# temp",
+    //         "color": "white",
+    //         "backgroundColor": "purple"
+    //     },
+    //     {
+    //         "text": "# DEBUG",
+    //         "color": "white",
+    //         "backgroundColor": "#ff0000"
+    //     },
+    //     {
+    //         "text": "# UPDATE",
+    //         "color": "white",
+    //         "backgroundColor": "#001c9b9d"
+    //     },
+    //     {
+    //         "text": "# DELETE",
+    //         "color": "white",
+    //         "backgroundColor": "grey"
+    //     },
+    //     {
+    //         "text": "# <<----- DELETE --------",
+    //         "color": "white",
+    //         "backgroundColor": "grey"
+    //     },
+    //     {
+    //         "text": "# ------- DELETE ------>>",
+    //         "color": "white",
+    //         "backgroundColor": "grey"
+    //     },
+    //     {
+    //         "text": "# <<----- UPDATE --------",
+    //         "color": "white",
+    //         "backgroundColor": "#001c9b9d"
+    //     },
+    //     {
+    //         "text": "# -----------------------",
+    //         "color": "white",
+    //         "backgroundColor": "#001c9b9d"
+    //     },
+    //     {
+    //         "text": "# ------- UPDATE ------>>",
+    //         "color": "white",
+    //         "backgroundColor": "#001c9b9d"
+    //     },
+    //     {
+    //         "text": "# <<----- OPTIONAL --------",
+    //         "color": "white",
+    //         "backgroundColor": "green"
+    //     },
+    //     {
+    //         "text": "# ------- OPTIONAL --------",
+    //         "color": "white",
+    //         "backgroundColor": "green"
+    //     },
+    //     {
+    //         "text": "# ------- OPTIONAL ------>>",
+    //         "color": "white",
+    //         "backgroundColor": "green"
+    //     },
+    //     {
+    //         "text": "NOTE",
+    //         "color": "white",
+    //         "backgroundColor": "purple"
+    //     },
+    //     {
+    //         "text": "注意：",
+    //         "color": "white",
+    //         "backgroundColor": "red",
+    //         "fontStyle": "bold"
+    //     },
+    //     {
+    //         "text": "创新点",
+    //         "color": "white",
+    //         "backgroundColor": "green"
+    //     },
+    //     {
+    //         "text": "功能点",
+    //         "color": "white",
+    //         "backgroundColor": "orange",
+    //     },
+    //     {
+    //         "text": "TODO",
+    //         "color": "yellow",
+    //         "backgroundColor": "grey"
+    //     },
+    //     {
+    //         "text": "IMPORTANT",
+    //         "color": "white",
+    //         "backgroundColor": "red"
+    //     },
+    //     {
+    //         "text": "# ----------->>",
+    //         "color": "white",
+    //         "backgroundColor": "#001c9b9d"
+    //     },
+    //     {
+    //         "text": "# -------------",
+    //         "color": "white",
+    //         "backgroundColor": "#001c9b9d"
+    //     },
+    //     {
+    //         "text": "# <<-----------",
+    //         "color": "white",
+    //         "backgroundColor": "#001c9b9d"
+    //     }
+    // ],
+    "editor.fontLigatures": true,
+    "notebook.output.textLineLimit": 500,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.ipynb": "jupyter-notebook",
+        "{git,gitlens}:/**/*.{md,csv,svg}": "default",
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "settingsSync.ignoredExtensions": [
+        "reditorsupport.r",
+        "johnpapa.vscode-peacock"
+    ],
+    "update.showReleaseNotes": false,
+    "update.mode": "manual",
+    "autoDocstring.docstringFormat": "sphinx",
+    "workbench.colorCustomizations": {},
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.minimap.size": "fit",
+    "files.exclude": {
+        "**/__pycache__/": true
+    },
+    "files.associations": {
+        "*.py": "python",
+        "*.m": "matlab"
+    },
+    "editor.guides.bracketPairs": true,
+    "workbench.startupEditor": "none",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.semanticHighlighting.enabled": true,
+    "editor.suggest.showSnippets": true,
+    "markdown-preview-enhanced.previewTheme": "none.css",
+    "editor.lineHeight": 1.2,
+    "python.analysis.completeFunctionParens": true,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "python.analysis.diagnosticSeverityOverrides": {
+
+
+        // "reportOperatorIssue": "none",
+        "reportAssignmentType": "none",
+        // "reportCallIssue": "warning",
+        // "reportReturnType": "warning",
+        // "reportArgumentType": "none",
+        "reportOptionalSubscript": "none",
+        // "reportGeneralTypeIssues": "none",
+        // "reportOptionalOperand": "none",
+        // "reportOptionalIterable": "none",
+        "reportRedeclaration": "none",
+        // "reportUndefinedVariable": "error"
+    },
+    "editor.fontFamily": "Fira Code, Cascadia Code, 霞鹜文楷",
+    "python.analysis.typeCheckingMode": "basic",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "explorer.confirmPasteNative": false,
+    "github.copilot.preferredAccount": "Ulti-Dreisteine",
+    "github.copilot.enable": {
+        "markdown": true,
+        "plaintext": true,
+        "jupyter": true
+    },
+    "markdown-preview-enhanced.enablePreviewZenMode": false,
+    "markdown-preview-enhanced.revealjsTheme": "none.css",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "settingsSync.ignoredSettings": [
+        "editor.fontSize",
+        "-python.analysis.cacheLSPData"
+    ],
+    "interactiveWindow.executeWithShiftEnter": true,
+    "editor.inlineCompletionsAccessibilityVerbose": true,
+    "editor.tabCompletion": "on",
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "python.analysis.enablePytestSupport": false,
+    "python.analysis.diagnosticMode": "openFilesOnly",
+    "python.REPL.sendToNativeREPL": true,
+    "workbench.iconTheme": "vscode-icons",
+    "notebook.lineNumbers": "on",
+    "notebook.markup.fontSize": 12,
+    // "better-comments.tags": [
+    //     {
+    //         "tag": "!",
+    //         "color": "#FF2D00",
+    //         "strikethrough": false,
+    //         "underline": true,
+    //         "backgroundColor": "transparent",
+    //         "bold": true,
+    //         "italic": false
+    //     },
+    //     {
+    //         "tag": "?",
+    //         "color": "#3498DB",
+    //         "strikethrough": false,
+    //         "underline": false,
+    //         "backgroundColor": "transparent",
+    //         "bold": false,
+    //         "italic": false
+    //     },
+    //     {
+    //         "tag": "//",
+    //         "color": "#474747",
+    //         "strikethrough": true,
+    //         "underline": false,
+    //         "backgroundColor": "transparent",
+    //         "bold": false,
+    //         "italic": false
+    //     },
+    //     {
+    //         "tag": "todo",
+    //         "color": "#FF8C00",
+    //         "strikethrough": false,
+    //         "underline": true,
+    //         "backgroundColor": "transparent",
+    //         "bold": true,
+    //         "italic": false
+    //     },
+    //     {
+    //         "tag": "TODO",
+    //         "color": "#FF8C00",
+    //         "strikethrough": false,
+    //         "underline": true,
+    //         "backgroundColor": "transparent",
+    //         "bold": true,
+    //         "italic": false
+    //     },
+    //     {
+    //         "tag": "*",
+    //         "color": "#98C379",
+    //         "strikethrough": false,
+    //         "underline": true,
+    //         "backgroundColor": "transparent",
+    //         "bold": false,
+    //         "italic": false
+    //     },
+    // ],
+    "jupyter.askForKernelRestart": false,
+    "python.analysis.packageIndexDepths": [
+        {
+            "name": "sklearn",
+            "depth": 2
+        },
+        {
+            "name": "matplotlib",
+            "depth": 2
+        },
+        {
+            "name": "scipy",
+            "depth": 2
+        },
+        {
+            "name": "django",
+            "depth": 2
+        },
+        {
+            "name": "flask",
+            "depth": 2
+        },
+        {
+            "name": "fastapi",
+            "depth": 2
+        },
+        {
+            "name": "control",
+            "depth": 6
+        }
+    ],
+    "workbench.colorTheme": "Github Light Theme",
+    "editor.fontSize": 12.5,
+    "terminal.integrated.commandsToSkipShell": [
+        "matlab.interrupt"
+    ],
+    "[matlab]": {
+        "editor.defaultFormatter": "MathWorks.language-matlab"
+    },
+    "MATLAB.telemetry": false,
+    "editor.wordWrap": "wordWrapColumn",
+    "github.copilot.advanced": {},
+    "git.openRepositoryInParentFolders": "never",
+}
