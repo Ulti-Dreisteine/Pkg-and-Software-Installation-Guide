@@ -167,3 +167,17 @@
   ```
   pip uninstall pylint
   ```
+
+## 7. Conda重建索引
+
+清除缓存：
+
+```bash
+conda clean --all
+```
+
+重建索引：
+
+```bash
+conda update --all conda
+```
